@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy3
+  - Enemy2
+  - Enemy1
+  - Boss
+  - Tower
   layers:
   - Default
   - TransparentFX
@@ -12,11 +17,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Boss
+  - Tower
   - 
   - 
   - 
