@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Ground
   - Enemy3
   - Enemy2
   - Enemy1
   - Boss
   - Tower
+  - Meteor
   layers:
   - Default
   - TransparentFX
