@@ -17,4 +17,15 @@ public class DataEnemy : MonoBehaviour
     [SerializeField]
     public float distanceBetweenEnemyAndTower;
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Meteor")
+        {
+            health--;
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
 }

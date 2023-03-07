@@ -10,6 +10,7 @@ TagManager:
   - Enemy1
   - Boss
   - Tower
+  - Meteor
   layers:
   - Default
   - TransparentFX

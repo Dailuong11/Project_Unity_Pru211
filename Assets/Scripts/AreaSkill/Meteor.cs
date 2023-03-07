@@ -21,7 +21,11 @@ public class Meteor : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" ||
+            collision.gameObject.tag == "Enemy1" ||
+            collision.gameObject.tag == "Enemy2" ||
+            collision.gameObject.tag == "Enemy3" ||
+            collision.gameObject.tag == "Boss")
         {
             Instantiate<GameObject>(prefabExplosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
