@@ -51,7 +51,6 @@ public class SpawnEnemy : MonoBehaviour
             }
             countTimeSpawn++;
             numberEnemySpawn = (int)Math.Ceiling(numberEnemySpawn * Mathf.Pow(enemySpawnRateIncrease, countTimeSpawn));
-            Debug.Log(numberEnemySpawn);
             timer.Duration = timeSpawnEnemy;
             timer.run();
 
