@@ -37,7 +37,7 @@ public class Button_Hero : MonoBehaviour
     public void hero1()
     {
 
-        float x = tower.transform.position.x ;
+        float x = 17.61f ;
         float y = tower.transform.position.y ;
         float z = tower.transform.position.z ;
         Vector3 pos = new Vector3(x, y, z);
@@ -47,7 +47,7 @@ public class Button_Hero : MonoBehaviour
     }
     public void hero2()
     {
-        float x = tower.transform.position.x;
+        float x = 17.61f;
         float y = tower.transform.position.y;
         float z = tower.transform.position.z;
         Vector3 pos = new Vector3(x, y,z);
@@ -57,7 +57,7 @@ public class Button_Hero : MonoBehaviour
     }
     public void hero3()
     {
-        float x = tower.transform.position.x;
+        float x = 17.61f;
         float y = tower.transform.position.y;
         float z = tower.transform.position.z;
         Vector3 pos = new Vector3(x, y, z);
