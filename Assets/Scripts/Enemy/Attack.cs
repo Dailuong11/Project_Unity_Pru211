@@ -22,7 +22,7 @@ public class Attack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Vector3.Distance(gameObject.transform.position, tower.transform.position));
+        //Debug.Log(Vector3.Distance(gameObject.transform.position, tower.transform.position));
         float distanceBetweenEnemyAndTower = Vector3.Distance(gameObject.transform.position, tower.transform.position);
         if (distanceBetweenEnemyAndTower < dataEnemy.distanceBetweenEnemyAndTower)
         {

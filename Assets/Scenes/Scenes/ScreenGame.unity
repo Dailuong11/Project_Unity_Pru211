@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabCircle: {fileID: 3216964703348164582, guid: 0e27dc76e28964d4598d418d0f65d2eb, type: 3}
-  tower: {fileID: 3216964703348164582, guid: 0e27dc76e28964d4598d418d0f65d2eb, type: 3}
+  tower: {fileID: 1549505834}
 --- !u!1 &146359432
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabCircle: {fileID: 7023117229262446466, guid: 2df0d57058a4cb44c883a6ec9741d31f, type: 3}
-  tower: {fileID: 807451455}
+  tower: {fileID: 1549505834}
 --- !u!1 &359481328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabCircle: {fileID: 7643333641909014656, guid: c289ac2f960eafd4b9e84e0aa5f1a08e, type: 3}
-  tower: {fileID: 807451455}
+  tower: {fileID: 1549505834}
 --- !u!1 &1699350375
 GameObject:
   m_ObjectHideFlags: 0
